@@ -20,5 +20,14 @@
                 }
             ]
         }
-    ]
+    ],
+    "build": {
+        "env": {
+        "APP_ENV": "Development"
+        },
+        "functions": {
+        "api/**/*.js": {}
+        },
+        "prebuild": "node custom/vercel/pre-build.js"
+    }
 }
