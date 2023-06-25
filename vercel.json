@@ -23,7 +23,7 @@
     ],
     "build": {
         "env": {
-        "APP_ENV": "Development"
+        "APP_ENV": "production"
         },
         "functions": {
         "api/**/*.js": {}
